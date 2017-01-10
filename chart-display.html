@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>图表展示</title>
+</head>
+<body id="page3">
+    <div class="container data">
+        <header class="header">
+            <span class="span-text span-data">POS数据分析</span>
+            <i></i>
+            <span class="span-text span-company" id="spanSelect"></span><span class="span-text span-change">切换公司</span>
+        </header>
+        <!-- 主体区section start-->
+        <section class="section">
+            <div class="sidebar">
+                <dl class="dl-list" id="dl-list">
+
+                </dl>
+                <!-- <dl class="dl-list add-dl">
+                    <dt class="dt-item add-dt">
+                        <span class="span-list">
+                        <icon class="circle-plus" id="plus"></icon>
+                        <span class="span-list add-span">新增项目</span>
+                        </span>
+                    </dt>
+                </dl> -->
+            </div>
+            <!-- article内容切换区start -->
+            <div id="pdfContent">
+
+            </div>
+            <div class="article">
+                <h2 class="article-title">报表项目1</h2>
+                <p class="p-data">数据收集截止于<span id="getTime" class="get-text"></span>
+                </p>
+                <div class="pdf-area" id="pdf"><iframe src="pdf/Python.pdf#page=2" width="100%" height="100%"><a href="pdf/Python.pdf"></a></iframe></div>
+            </div>
+            <!-- article内容切换区end -->
+        </section>
+        <!-- 主体区section end-->
+    </div>
+</body>
+<script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/common.js"></script>
+</html>
